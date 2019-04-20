@@ -2,6 +2,18 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Authors>Prom3theu5</Authors>
+    <Description>Nuke.Build auto versioning based on commit.</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <AssemblyVersion>1.0.1.0</AssemblyVersion>
+    <FileVersion>1.0.1.0</FileVersion>
+    <Version>1.0.1</Version>
+    <PackageProjectUrl>https://github.com/prom3theu5/gitautoversiontool</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/prom3theu5/gitautoversiontool</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <PackageReleaseNotes>Based on tooling by pkudrel: https://github.com/pkudrel</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
